@@ -4,9 +4,9 @@ variable "cluster_name" {
 }
 
 variable "cluster_version" {
-  description = "EKS Kubernetes version."
+  description = "Optional EKS Kubernetes version. Leave null to let AWS choose a supported default."
   type        = string
-  default     = "1.31"
+  default     = null
 }
 
 variable "subnet_ids" {
