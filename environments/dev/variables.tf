@@ -14,8 +14,9 @@ variable "cluster_name" {
 }
 
 variable "cluster_version" {
-  type    = string
-  default = "1.31"
+  description = "Optional EKS version. Leave null to let AWS choose a supported default."
+  type        = string
+  default     = null
 }
 
 variable "vpc_cidr" {
