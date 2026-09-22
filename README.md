@@ -1,6 +1,8 @@
 # AWS Terraform EKS Platform
 
-Production-style Terraform portfolio project for provisioning an Amazon EKS platform with reusable VPC, IAM, and EKS modules, environment separation, remote state, and CI validation.
+[![Terraform Validation](https://github.com/pranay9-h/aws-terraform-eks-platform/actions/workflows/terraform-validate.yml/badge.svg?branch=master)](https://github.com/pranay9-h/aws-terraform-eks-platform/actions/workflows/terraform-validate.yml)
+
+Reusable Terraform platform for AWS EKS with modular VPC/IAM/EKS components, environment separation, remote state, and CI validation.
 
 > **Portfolio safety:** this repository contains infrastructure code only. Applying it creates billable AWS resources such as EKS worker nodes and a NAT Gateway. Review the cost notes and cleanup steps before deploying.
 
@@ -246,4 +248,5 @@ This repository is intentionally structured so the design can be explained durin
 ## Author
 
 Pranay Saiteja Soppadandi  
-GitHub: https://github.com/pranay9-h
+GitHub: https://github.com/pranay9-h  
+LinkedIn: https://www.linkedin.com/in/pranay-sai-teja-2b257b1a1/
